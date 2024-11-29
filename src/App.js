@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import UserList from "./UserList";
+import PostList from "./PostList";
+import ErrorHandlingExample from "./ErrorHandlingExample";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1>React Fetch Examples</h1>
+      <h2>Users</h2>
+      <UserList />
+      <h2>Posts</h2>
+      <PostList />
+      <h2>Error Handling</h2>
+      <ErrorHandlingExample />
     </div>
   );
 }
