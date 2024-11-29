@@ -1,0 +1,31 @@
+/* DynamicUserPosts.css */
+
+.dynamic-posts {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    margin-top: 20px;
+  }
+  
+  .dynamic-posts ul {
+    list-style-type: none;
+  }
+  
+  .dynamic-posts li {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dynamic-posts li h3 {
+    font-size: 1.1rem;
+    color: #333;
+  }
+  
+  .dynamic-posts li p {
+    font-size: 1rem;
+    color: #666;
+  }
+  

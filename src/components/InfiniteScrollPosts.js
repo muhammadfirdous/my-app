@@ -1,4 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
+import '../styles/InfiniteScrollPosts.css';  // Import the CSS file
+
 
 function InfiniteScrollPosts() {
   const [posts, setPosts] = useState([]);

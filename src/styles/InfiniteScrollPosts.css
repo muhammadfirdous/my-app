@@ -1,0 +1,25 @@
+/* InfiniteScrollPosts.css */
+
+.loading-more {
+    text-align: center;
+    font-size: 1rem;
+    color: #007bff;
+    margin-top: 20px;
+  }
+  
+  .infinite-scroll-posts {
+    padding: 20px;
+  }
+  
+  .infinite-scroll-posts ul {
+    list-style-type: none;
+  }
+  
+  .infinite-scroll-posts li {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  

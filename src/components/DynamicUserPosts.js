@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import '../styles/DynamicUserPosts.css';  // Import the CSS file
 
 const DynamicUserPosts = () => {
   const [userId, setUserId] = useState("");

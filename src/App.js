@@ -3,6 +3,7 @@ import DynamicUserPosts from "./components/DynamicUserPosts";
 import PaginatedUsers from "./components/PaginatedUsers";
 import SearchablePosts from "./components/SearchablePosts";
 import InfiniteScrollPosts from "./components/InfiniteScrollPosts";
+import './App.css';
 
 function App() {
   const [users, setUsers] = useState([]);
